@@ -1,0 +1,6 @@
+.venv/
+.idea/
+*.iml
+__pycache__/
+REST_api_data/*.csv
+*.log
