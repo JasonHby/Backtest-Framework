@@ -1,0 +1,3669 @@
+[
+  {
+    "timestamp": 1690380000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.1810804609194747,
+    "diff": 1.325766186848341
+  },
+  {
+    "timestamp": 1690488000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 10.163496888744703,
+    "diff": -1.1229241960500076,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29144.56
+  },
+  {
+    "timestamp": 1690574400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.2857448797512916,
+    "diff": 2.458228776446049
+  },
+  {
+    "timestamp": 1690711200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.367328922249726,
+    "diff": -1.5061829789228796,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29278.32
+  },
+  {
+    "timestamp": 1690725600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.484844370294013,
+    "diff": 3.2580243078264175
+  },
+  {
+    "timestamp": 1690743600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 12.759848439960479,
+    "diff": 4.8693074624970905,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29202.28
+  },
+  {
+    "timestamp": 1690750800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.8396427754123579,
+    "diff": -3.9991773877736705
+  },
+  {
+    "timestamp": 1690761600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -12.46538701681493,
+    "diff": -2.4517610892908124,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 29461.54
+  },
+  {
+    "timestamp": 1690765200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.4517610892908124,
+    "diff": 5.727037027307233
+  },
+  {
+    "timestamp": 1690826400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.4825168159331952,
+    "diff": -7.339253980262583,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29195.74
+  },
+  {
+    "timestamp": 1690934400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -15.06764923733499,
+    "diff": 23.23479005742047
+  },
+  {
+    "timestamp": 1690981200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 121.07106104830746,
+    "diff": 113.42199236065062,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29412.04
+  },
+  {
+    "timestamp": 1691013600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 0.44304685254974174,
+    "diff": -5.8489019596345315
+  },
+  {
+    "timestamp": 1691377200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -0.6038684642117005,
+    "diff": 3.2269202155257517,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 29162.67
+  },
+  {
+    "timestamp": 1691413200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.2217814181713038,
+    "diff": -2.732093163067475
+  },
+  {
+    "timestamp": 1691445600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -2.1812914048750827,
+    "diff": 3.2598411996477807,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 29181.18
+  },
+  {
+    "timestamp": 1691683200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 5.717947186214587,
+    "diff": -1.953470258955349
+  },
+  {
+    "timestamp": 1692021600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -6.944790084919077,
+    "diff": 1.171531975189282,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 29534.0
+  },
+  {
+    "timestamp": 1692075600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 0.7626964265618881,
+    "diff": -1.9084528172570572
+  },
+  {
+    "timestamp": 1692806400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -20.539335377165116,
+    "diff": 2.1109028237442544,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 26396.0
+  },
+  {
+    "timestamp": 1692910800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 0.8538129767548526,
+    "diff": -6.127445949783578
+  },
+  {
+    "timestamp": 1693148400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -1.7538558563210245,
+    "diff": 1.8151783624125528,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 26122.15
+  },
+  {
+    "timestamp": 1693191600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 0.7176034577205428,
+    "diff": -2.463775104683009
+  },
+  {
+    "timestamp": 1693238400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -4.98165259189409,
+    "diff": 0.8826905736787012,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 26146.92
+  },
+  {
+    "timestamp": 1693256400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.3905786686955253,
+    "diff": -2.8687156457745004
+  },
+  {
+    "timestamp": 1693263600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -2.1493208224237605,
+    "diff": 1.7664157451072242,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 26120.0
+  },
+  {
+    "timestamp": 1693296000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 0.5864606157556409,
+    "diff": -5.236159191277693
+  },
+  {
+    "timestamp": 1693317600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -11.7839336453726,
+    "diff": 70.28012332009894,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 27492.03
+  },
+  {
+    "timestamp": 1693501200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 26.89485952787436,
+    "diff": -17.689252915792167
+  },
+  {
+    "timestamp": 1694106000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -7.823465000928991,
+    "diff": 2.854722619009408,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 25931.18
+  },
+  {
+    "timestamp": 1694224800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 0.10998030138216564,
+    "diff": -1.521393338120106
+  },
+  {
+    "timestamp": 1694516400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -5.436889995260572,
+    "diff": 21.776384447788587,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 26098.99
+  },
+  {
+    "timestamp": 1694998800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.654454699917551,
+    "diff": -1.1523526975724963
+  },
+  {
+    "timestamp": 1695002400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -1.1523526975724963,
+    "diff": 7.6439794440993865,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 26663.12
+  },
+  {
+    "timestamp": 1695286800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 11.101734264466359,
+    "diff": -6.765920598420053
+  },
+  {
+    "timestamp": 1695812400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -9.644210367405321,
+    "diff": 18.427828469488304,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 26766.7
+  },
+  {
+    "timestamp": 1696345200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 2.6446470818991656,
+    "diff": -12.271009562660765
+  },
+  {
+    "timestamp": 1696449600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -7.472478000570845,
+    "diff": 0.9888169755286071,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 27648.98
+  },
+  {
+    "timestamp": 1696543200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 2.737561363985151,
+    "diff": -6.432001330438652
+  },
+  {
+    "timestamp": 1696590000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -0.07798828477825737,
+    "diff": 10.12658562899378,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 27760.0
+  },
+  {
+    "timestamp": 1696593600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 10.12658562899378,
+    "diff": -9.444514304523182
+  },
+  {
+    "timestamp": 1696600800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -11.121746779670502,
+    "diff": -4.476570726674254,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 27670.0
+  },
+  {
+    "timestamp": 1696604400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -4.476570726674254,
+    "diff": 16.505469598483614
+  },
+  {
+    "timestamp": 1696842000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.951821424514492,
+    "diff": -15.181965664003656,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 27542.97
+  },
+  {
+    "timestamp": 1697295600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.9628075618093135,
+    "diff": 2.8650934529032384
+  },
+  {
+    "timestamp": 1697317200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.6929877334005141,
+    "diff": -2.640366713174444,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 26820.01
+  },
+  {
+    "timestamp": 1697356800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.3805277841784118,
+    "diff": 1.3497513856709702
+  },
+  {
+    "timestamp": 1697371200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1.5510716394055635,
+    "diff": -0.7939884862717008,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 26838.14
+  },
+  {
+    "timestamp": 1697385600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.029646567676536506,
+    "diff": 3.008823987081996
+  },
+  {
+    "timestamp": 1698426000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 7.491981375031173,
+    "diff": -19.0176714170957,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 33600.15
+  },
+  {
+    "timestamp": 1698487200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.6821439327904955,
+    "diff": 2.846045120357303
+  },
+  {
+    "timestamp": 1698764400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.2032515862301807,
+    "diff": -1.649440527689876,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 34272.19
+  },
+  {
+    "timestamp": 1698768000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.649440527689876,
+    "diff": 2.7327643313692533
+  },
+  {
+    "timestamp": 1698984000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 13.300321416165389,
+    "diff": -12.707101116684498,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 34404.25
+  },
+  {
+    "timestamp": 1699092000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.4681067424608045,
+    "diff": 1.4378800949561992
+  },
+  {
+    "timestamp": 1699347600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 2.024005016304727,
+    "diff": -7.991441257472616,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 34785.44
+  },
+  {
+    "timestamp": 1699383600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -27.870244174708205,
+    "diff": 5.080921535947709
+  },
+  {
+    "timestamp": 1699876800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1.5101510396780213,
+    "diff": -2.9945374247981817,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 36929.57
+  },
+  {
+    "timestamp": 1700074800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -44.93118165842316,
+    "diff": 31.9806264156432
+  },
+  {
+    "timestamp": 1700146800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 280.3822620908759,
+    "diff": 229.68020709136908,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 36406.0
+  },
+  {
+    "timestamp": 1700164800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 45.33442123787245,
+    "diff": -2.5916445026086876
+  },
+  {
+    "timestamp": 1700316000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -37.83534081748803,
+    "diff": -30.654111934396497,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 36507.03
+  },
+  {
+    "timestamp": 1700326800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.7070652200927725,
+    "diff": 7.259096802466956
+  },
+  {
+    "timestamp": 1700600400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1.802899613212503,
+    "diff": -14.087162574825925,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 36833.92
+  },
+  {
+    "timestamp": 1700686800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -37.72835349863453,
+    "diff": 10.503209087677533
+  },
+  {
+    "timestamp": 1700751600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 164.29246634276933,
+    "diff": 140.40805877927778,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 36951.34
+  },
+  {
+    "timestamp": 1701014400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.5080045064314618,
+    "diff": -22.4638818148087
+  },
+  {
+    "timestamp": 1701028800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -65.07518777266523,
+    "diff": -59.36596492140961,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 37588.57
+  },
+  {
+    "timestamp": 1701190800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.171022420829104,
+    "diff": 48.36077851403388
+  },
+  {
+    "timestamp": 1701331200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 89.49520228561596,
+    "diff": 74.85832685100468,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 37668.87
+  },
+  {
+    "timestamp": 1701385200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.4827173812809633,
+    "diff": -0.33708842067426303
+  },
+  {
+    "timestamp": 1701392400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -4.2471639089417295,
+    "diff": 7.139491904374154,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 37946.02
+  },
+  {
+    "timestamp": 1702252800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 6.924844268258312,
+    "diff": -4.709705384790141
+  },
+  {
+    "timestamp": 1702497600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -55.741229977888,
+    "diff": 17.215216251577658,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 42874.87
+  },
+  {
+    "timestamp": 1702659600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 11.126025117722747,
+    "diff": -27.19826480930351
+  },
+  {
+    "timestamp": 1702738800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -57.35941488565004,
+    "diff": -37.19363761257409,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 42604.0
+  },
+  {
+    "timestamp": 1702940400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -57.334910359240894,
+    "diff": 0.9086676493170671
+  },
+  {
+    "timestamp": 1703448000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.27101656231388915,
+    "diff": -9.391805651444884,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 43499.25
+  },
+  {
+    "timestamp": 1703707200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -9.932570652250433,
+    "diff": 23.803594399025314
+  },
+  {
+    "timestamp": 1703764800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 84.12313776530209,
+    "diff": 62.27645376663713,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42786.16
+  },
+  {
+    "timestamp": 1703775600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 19.667083546773938,
+    "diff": -13.279376308018982
+  },
+  {
+    "timestamp": 1704016800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -2.1767451423802413,
+    "diff": 17.906196470918076,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 42659.42
+  },
+  {
+    "timestamp": 1704294000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 9.581896579722525,
+    "diff": -66.11382478390442
+  },
+  {
+    "timestamp": 1704380400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -304.23943575061276,
+    "diff": -246.268332919346,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 44051.1
+  },
+  {
+    "timestamp": 1704405600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.748195781292452,
+    "diff": 34.872043821786065
+  },
+  {
+    "timestamp": 1704470400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 18.060430671524955,
+    "diff": -11.451059323058871,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 43225.99
+  },
+  {
+    "timestamp": 1704488400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.6987848022108665,
+    "diff": 8.524641606585647
+  },
+  {
+    "timestamp": 1704542400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 2.1599257626439794,
+    "diff": -5.670843759980926,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 43607.96
+  },
+  {
+    "timestamp": 1704553200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.3098780057262047,
+    "diff": 5.8869765373456175
+  },
+  {
+    "timestamp": 1704682800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 7.000963107304415,
+    "diff": -15.93484152486053,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 43518.2
+  },
+  {
+    "timestamp": 1704711600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -17.37594285078376,
+    "diff": 26.34879752482084
+  },
+  {
+    "timestamp": 1704891600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 33.17911320080748,
+    "diff": -7.353437173369457,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 45118.01
+  },
+  {
+    "timestamp": 1704909600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -30.78569900297589,
+    "diff": 16.861441710105282
+  },
+  {
+    "timestamp": 1705050000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.781935214465193,
+    "diff": -17.184196327412792,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 45925.92
+  },
+  {
+    "timestamp": 1705417200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -24.774768034134468,
+    "diff": 1.1684303442452801
+  },
+  {
+    "timestamp": 1705482000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1.2027220112431678,
+    "diff": -12.007762277389702,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42678.57
+  },
+  {
+    "timestamp": 1705842000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.9952720179717289,
+    "diff": 9.212606467553996
+  },
+  {
+    "timestamp": 1705878000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.9359945829346543,
+    "diff": -2.3900945771019906,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 41580.33
+  },
+  {
+    "timestamp": 1706176800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -6.975040662124229,
+    "diff": 1.303962636477081
+  },
+  {
+    "timestamp": 1706187600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.3743716214448796,
+    "diff": -1.086612039951433,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 39913.84
+  },
+  {
+    "timestamp": 1706191200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.086612039951433,
+    "diff": 0.5914184543507872
+  },
+  {
+    "timestamp": 1706194800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.5914184543507872,
+    "diff": -9.643987039227795,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 39804.24
+  },
+  {
+    "timestamp": 1706241600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.878918438073015,
+    "diff": 6.962517782114446
+  },
+  {
+    "timestamp": 1706742000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 23.71534169529332,
+    "diff": -0.1265458356210729,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42580.0
+  },
+  {
+    "timestamp": 1706828400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -9.190172913862625,
+    "diff": 13.307519178488292
+  },
+  {
+    "timestamp": 1707026400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 12.06375164646306,
+    "diff": -4.231701677490491,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42746.13
+  },
+  {
+    "timestamp": 1707134400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -8.82046642874775,
+    "diff": 12.11788062373671
+  },
+  {
+    "timestamp": 1707156000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.8901207391172647,
+    "diff": -6.797869424182863,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42730.89
+  },
+  {
+    "timestamp": 1707231600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -7.409850665215345,
+    "diff": 15.67029812578403
+  },
+  {
+    "timestamp": 1708178400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 24.70004159088421,
+    "diff": -30.158431591313274,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 50841.09
+  },
+  {
+    "timestamp": 1708254000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -8.3273733027454,
+    "diff": 2.930526196563733
+  },
+  {
+    "timestamp": 1708257600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 2.930526196563733,
+    "diff": -2.8655687342761667,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 51554.06
+  },
+  {
+    "timestamp": 1708264800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.7263550140851294,
+    "diff": 9.744339097538614
+  },
+  {
+    "timestamp": 1708398000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1.2628638623500592,
+    "diff": -16.994051550980657,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 51580.23
+  },
+  {
+    "timestamp": 1708426800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -8.587232612910157,
+    "diff": 14.534298582024348
+  },
+  {
+    "timestamp": 1708444800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 53.07952609063068,
+    "diff": 17.321943737420952,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 51396.33
+  },
+  {
+    "timestamp": 1708448400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 17.321943737420952,
+    "diff": -17.822777967325237
+  },
+  {
+    "timestamp": 1708466400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -6.047827451460762,
+    "diff": 9.494358884148824,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 52168.65
+  },
+  {
+    "timestamp": 1708498800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 17.291266418200394,
+    "diff": -4.976016808999702
+  },
+  {
+    "timestamp": 1708804800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -8.298911230376689,
+    "diff": 10.57661937418743,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 51511.54
+  },
+  {
+    "timestamp": 1708941600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 5.440356276842067,
+    "diff": -11.412583014353004
+  },
+  {
+    "timestamp": 1708959600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -27.140702332028013,
+    "diff": 54.49745742464438,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 52842.32
+  },
+  {
+    "timestamp": 1709676000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 95.03449679457844,
+    "diff": -21.330882135400316
+  },
+  {
+    "timestamp": 1709712000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -99.45686065387417,
+    "diff": 17.250075443917012,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 66941.23
+  },
+  {
+    "timestamp": 1710439200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 20.94194575198344,
+    "diff": -105.60703435834148
+  },
+  {
+    "timestamp": 1710741600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -28.7825928874081,
+    "diff": 8.472017008636612,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 68481.1
+  },
+  {
+    "timestamp": 1710770400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 50.64191011506773,
+    "diff": -6.792567254509777
+  },
+  {
+    "timestamp": 1710972000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -139.61609070196573,
+    "diff": 46.57178162916534,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 67681.94
+  },
+  {
+    "timestamp": 1711105200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 52.46418638591422,
+    "diff": -39.832511655869894
+  },
+  {
+    "timestamp": 1711224000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -12.292806275872863,
+    "diff": 2.7955991938943043,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 65009.78
+  },
+  {
+    "timestamp": 1711234800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 9.404702615676797,
+    "diff": -35.5644748740815
+  },
+  {
+    "timestamp": 1711278000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -34.77403856981982,
+    "diff": 5.224413245479809,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 65334.01
+  },
+  {
+    "timestamp": 1711728000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 38.43732127752446,
+    "diff": -18.99476331063488
+  },
+  {
+    "timestamp": 1711792800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -54.785618216425064,
+    "diff": -45.590208239111234,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 70042.19
+  },
+  {
+    "timestamp": 1711814400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.6789863478334155,
+    "diff": 9.40985183903831
+  },
+  {
+    "timestamp": 1711825200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 4.589525404400774,
+    "diff": -1.8888761719863396,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69896.34
+  },
+  {
+    "timestamp": 1711864800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.4348478535393951,
+    "diff": 11.997281289615785
+  },
+  {
+    "timestamp": 1711947600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 258.5382564745378,
+    "diff": 165.01851778838318,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69167.48
+  },
+  {
+    "timestamp": 1711962000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.188357824794366,
+    "diff": -47.183202371321386
+  },
+  {
+    "timestamp": 1712246400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -40.27693384909071,
+    "diff": 35.89454198682506,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 67807.64
+  },
+  {
+    "timestamp": 1712682000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 10.404052351601422,
+    "diff": -77.71161312596814
+  },
+  {
+    "timestamp": 1712786400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -218.66855565317383,
+    "diff": -143.14310171536636,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 70528.0
+  },
+  {
+    "timestamp": 1712797200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -14.581992083185469,
+    "diff": 36.536650352500146
+  },
+  {
+    "timestamp": 1712930400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 205.8360633918346,
+    "diff": 126.93943515558203,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69270.01
+  },
+  {
+    "timestamp": 1712937600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 62.21196678155684,
+    "diff": -22.676661531542777
+  },
+  {
+    "timestamp": 1713470400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -23.354012341231282,
+    "diff": 31.05421513928013,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 63490.98
+  },
+  {
+    "timestamp": 1713492000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 31.710585909720976,
+    "diff": -42.538599541752774
+  },
+  {
+    "timestamp": 1713506400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -100.06471457274893,
+    "diff": 26.959782752921456,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 64624.37
+  },
+  {
+    "timestamp": 1713974400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 12.440915364655666,
+    "diff": -66.72408211781294
+  },
+  {
+    "timestamp": 1714438800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -22.012498453295848,
+    "diff": 2.405023693376279,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 63606.01
+  },
+  {
+    "timestamp": 1714464000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 44.437054437439656,
+    "diff": -35.44384126296791
+  },
+  {
+    "timestamp": 1714712400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -23.65742289512127,
+    "diff": 5.474308499869949,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 59522.67
+  },
+  {
+    "timestamp": 1715108400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 18.430407550928066,
+    "diff": -13.740495770682173
+  },
+  {
+    "timestamp": 1715302800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -25.45348001774255,
+    "diff": 12.949714255388244,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 62883.5
+  },
+  {
+    "timestamp": 1715356800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 45.0806995622188,
+    "diff": -35.76246674909635
+  },
+  {
+    "timestamp": 1715558400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -9.39200975222775,
+    "diff": 5.73135089934658,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 61512.89
+  },
+  {
+    "timestamp": 1715565600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 13.421101938576612,
+    "diff": -0.7629561288558762
+  },
+  {
+    "timestamp": 1715583600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -22.33874253877002,
+    "diff": 40.770029917788634,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 62334.37
+  },
+  {
+    "timestamp": 1715702400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 37.79896826224285,
+    "diff": -0.6860304436122533
+  },
+  {
+    "timestamp": 1715763600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -30.152818815367937,
+    "diff": 14.032387523424404,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 62649.98
+  },
+  {
+    "timestamp": 1716159600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 18.29989165374718,
+    "diff": -6.362061120584258
+  },
+  {
+    "timestamp": 1716177600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -16.999504440900637,
+    "diff": 11.358326477959054,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 67132.43
+  },
+  {
+    "timestamp": 1716469200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 41.89618830343534,
+    "diff": -49.215114901409834
+  },
+  {
+    "timestamp": 1716613200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -0.6094833295210265,
+    "diff": 13.295054120084387,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 68718.21
+  },
+  {
+    "timestamp": 1716764400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 9.486936487985076,
+    "diff": -12.520050052917213
+  },
+  {
+    "timestamp": 1716775200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -1.1189079801843036,
+    "diff": 12.183363306045067,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 69111.35
+  },
+  {
+    "timestamp": 1716786000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 2.9656270070699975,
+    "diff": -17.231934148047003
+  },
+  {
+    "timestamp": 1716818400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -72.52140526208677,
+    "diff": -26.154584724805318,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 69500.0
+  },
+  {
+    "timestamp": 1716822000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -26.154584724805318,
+    "diff": 63.20407844896545
+  },
+  {
+    "timestamp": 1716836400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 224.88529787331936,
+    "diff": 216.77500688502914,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69260.01
+  },
+  {
+    "timestamp": 1716868800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 74.47895733464975,
+    "diff": -2.845094586009509
+  },
+  {
+    "timestamp": 1717088400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -17.480236719202367,
+    "diff": 51.88499027413491,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 69315.1
+  },
+  {
+    "timestamp": 1717164000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 45.37794928293442,
+    "diff": -2.7074479201983195
+  },
+  {
+    "timestamp": 1717286400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -92.7186885708652,
+    "diff": -80.88033511329559,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 67889.0
+  },
+  {
+    "timestamp": 1717336800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -9.408054170984542,
+    "diff": 14.980710727366386
+  },
+  {
+    "timestamp": 1717783200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 106.56756980274804,
+    "diff": -3.435868889297126,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69154.43
+  },
+  {
+    "timestamp": 1718038800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -15.278941353972186,
+    "diff": 10.09286611591233
+  },
+  {
+    "timestamp": 1718056800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 6.286856163336779,
+    "diff": -2.0278730823483784,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69495.99
+  },
+  {
+    "timestamp": 1718204400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -77.60682708621607,
+    "diff": 20.459162433835445
+  },
+  {
+    "timestamp": 1718218800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 190.1351032652601,
+    "diff": 128.07400338773732,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 67532.92
+  },
+  {
+    "timestamp": 1718247600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 23.0266147126531,
+    "diff": -23.06999879941577
+  },
+  {
+    "timestamp": 1718560800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -3.9270203031483106,
+    "diff": 4.195913106406806,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 66590.01
+  },
+  {
+    "timestamp": 1718600400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 4.581327046529623,
+    "diff": -2.5685875377239427
+  },
+  {
+    "timestamp": 1718877600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -11.707121959858341,
+    "diff": 38.09426899115351,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 66209.49
+  },
+  {
+    "timestamp": 1718899200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 8.31829927975923,
+    "diff": -19.842882647637452
+  },
+  {
+    "timestamp": 1719518400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -0.6084554069529986,
+    "diff": 3.325219234720862,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 61493.11
+  },
+  {
+    "timestamp": 1719583200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 29.04706721839466,
+    "diff": -6.202181630040286
+  },
+  {
+    "timestamp": 1719730800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -79.28628061655036,
+    "diff": -43.74245123920991,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 61528.01
+  },
+  {
+    "timestamp": 1719738000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -11.112876117585984,
+    "diff": 15.818950159446103
+  },
+  {
+    "timestamp": 1719946800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 16.98906935279956,
+    "diff": -18.366854837469873,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 61939.1
+  },
+  {
+    "timestamp": 1720296000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -27.303841872912017,
+    "diff": 25.172756975291122
+  },
+  {
+    "timestamp": 1720357200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 157.2528372002489,
+    "diff": 112.08364880328736,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 56872.0
+  },
+  {
+    "timestamp": 1720375200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 7.552917099026672,
+    "diff": -2.1045389272039756
+  },
+  {
+    "timestamp": 1720501200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -34.84124609005812,
+    "diff": 0.31217572097375523,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 57291.49
+  },
+  {
+    "timestamp": 1720735200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 25.530105070822174,
+    "diff": -4.556426381568599
+  },
+  {
+    "timestamp": 1720807200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -13.450458637955307,
+    "diff": 25.5795014608957,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 58296.9
+  },
+  {
+    "timestamp": 1721325600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 43.24434864104842,
+    "diff": -7.323398277956585
+  },
+  {
+    "timestamp": 1721394000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -88.78902253448177,
+    "diff": -24.428904441076156,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 65135.9
+  },
+  {
+    "timestamp": 1721397600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -24.428904441076156,
+    "diff": 65.84689907221036
+  },
+  {
+    "timestamp": 1721721600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 19.631224620548892,
+    "diff": -0.11165500324568711,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 66888.0
+  },
+  {
+    "timestamp": 1721962800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -43.29252966412605,
+    "diff": 47.755850001223735
+  },
+  {
+    "timestamp": 1722286800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 17.394329371047206,
+    "diff": -25.765165228338446,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 67500.0
+  },
+  {
+    "timestamp": 1722999600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -10.99798605498654,
+    "diff": 30.95257365261932
+  },
+  {
+    "timestamp": 1723053600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 101.1499127377756,
+    "diff": 2.794218359464139,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 54805.01
+  },
+  {
+    "timestamp": 1723057200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 2.794218359464139,
+    "diff": -85.2802245346902
+  },
+  {
+    "timestamp": 1723078800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -266.114069300922,
+    "diff": -196.740021278325,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 56868.0
+  },
+  {
+    "timestamp": 1723093200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -11.484443009758252,
+    "diff": 30.872982177621452
+  },
+  {
+    "timestamp": 1723406400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 49.562091366278764,
+    "diff": -65.87150827571168,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 58504.92
+  },
+  {
+    "timestamp": 1723568400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -30.215396018946194,
+    "diff": 69.07647167192044
+  },
+  {
+    "timestamp": 1723640400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 482.2948270604684,
+    "diff": 401.05435308838787,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 59611.92
+  },
+  {
+    "timestamp": 1723662000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 28.505677942783223,
+    "diff": -38.53891197338817
+  },
+  {
+    "timestamp": 1723849200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -7.15075735199207,
+    "diff": 2.8746270331612322,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 58874.6
+  },
+  {
+    "timestamp": 1724029200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 39.179790578877146,
+    "diff": -9.725011658134463
+  },
+  {
+    "timestamp": 1724112000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -91.20132394198299,
+    "diff": 1.3452413273334969,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 60482.78
+  },
+  {
+    "timestamp": 1724202000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 7.008130602727761,
+    "diff": -8.028080572577892
+  },
+  {
+    "timestamp": 1724256000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -5.789522470120573,
+    "diff": 15.789588996653038,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 59885.58
+  },
+  {
+    "timestamp": 1724702400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 6.930035140525433,
+    "diff": -10.618159928635578
+  },
+  {
+    "timestamp": 1725314400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -1.3276637214439688,
+    "diff": 52.301485532327206,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 59349.99
+  },
+  {
+    "timestamp": 1725379200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 39.32723063226149,
+    "diff": -15.775663167929451
+  },
+  {
+    "timestamp": 1725854400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -3.927385741240869,
+    "diff": 8.94397276815289,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 54849.65
+  },
+  {
+    "timestamp": 1726448400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 50.508741579717025,
+    "diff": -14.799882644190802
+  },
+  {
+    "timestamp": 1726581600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -96.64095442683902,
+    "diff": -2.6761913210721104,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 60265.17
+  },
+  {
+    "timestamp": 1726585200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.6761913210721104,
+    "diff": 127.77357452089927
+  },
+  {
+    "timestamp": 1726650000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 484.7922863168351,
+    "diff": 440.5169825451303,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 59654.77
+  },
+  {
+    "timestamp": 1727013600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 14.857757713907631,
+    "diff": -0.08653289283392951
+  },
+  {
+    "timestamp": 1727031600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -3.0790827309174347,
+    "diff": 12.04676138265495,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 63160.0
+  },
+  {
+    "timestamp": 1727298000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 3.8335635081821238,
+    "diff": -7.198791460919892
+  },
+  {
+    "timestamp": 1727344800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -8.171739649114897,
+    "diff": 38.56462715647649,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 64391.99
+  },
+  {
+    "timestamp": 1727661600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 23.14512715715682,
+    "diff": -47.29373704732279
+  },
+  {
+    "timestamp": 1728057600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -13.876173431432107,
+    "diff": 40.541018141724635,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 62244.0
+  },
+  {
+    "timestamp": 1728378000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 6.513438626323477,
+    "diff": -6.847522795847908
+  },
+  {
+    "timestamp": 1728662400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -12.022756483449484,
+    "diff": 55.860523621115135,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 62272.0
+  },
+  {
+    "timestamp": 1729519200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 20.39160847751191,
+    "diff": -46.192749979614746
+  },
+  {
+    "timestamp": 1729774800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -39.72514340878115,
+    "diff": 11.007323501602514,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 67905.99
+  },
+  {
+    "timestamp": 1729893600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.9132832402101485,
+    "diff": -48.813476631607045
+  },
+  {
+    "timestamp": 1729998000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -101.37916702477378,
+    "diff": -85.74646982748527,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 67289.57
+  },
+  {
+    "timestamp": 1730037600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.3504198508162517,
+    "diff": 24.423877762048505
+  },
+  {
+    "timestamp": 1730397600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.108374438728788,
+    "diff": -55.64704971878382,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 70633.67
+  },
+  {
+    "timestamp": 1730815200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -42.42033670164528,
+    "diff": 38.51070074435847
+  },
+  {
+    "timestamp": 1731643200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 50.39357027813094,
+    "diff": -25.344327726474148,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 87454.57
+  },
+  {
+    "timestamp": 1731668400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -51.73548906003998,
+    "diff": 16.406062385387486
+  },
+  {
+    "timestamp": 1731877200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 37.47094496214413,
+    "diff": -36.671021310728975,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 89137.98
+  },
+  {
+    "timestamp": 1731909600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.2261857901030453,
+    "diff": 95.32293843202933
+  },
+  {
+    "timestamp": 1731927600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 308.7866029815632,
+    "diff": 260.7921786043735,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 90275.13
+  },
+  {
+    "timestamp": 1732449600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 52.366170790817705,
+    "diff": -13.137806059079594
+  },
+  {
+    "timestamp": 1732525200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -5.720306878196425,
+    "diff": 42.305326042318484,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 98492.96
+  },
+  {
+    "timestamp": 1732543200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 71.47828109332477,
+    "diff": -66.08480375965883
+  },
+  {
+    "timestamp": 1732730400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -108.68922138436756,
+    "diff": 13.506078346559661,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 96119.51
+  },
+  {
+    "timestamp": 1733126400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 81.81332188824308,
+    "diff": -23.88965141212975
+  },
+  {
+    "timestamp": 1733151600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -303.41622766535147,
+    "diff": -241.51391102992056,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 97048.0
+  },
+  {
+    "timestamp": 1733295600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -7.905118743845378,
+    "diff": 33.761543613974936
+  },
+  {
+    "timestamp": 1733328000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 56.81458529944939,
+    "diff": -10.702997698797844,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 94847.81
+  },
+  {
+    "timestamp": 1733338800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -15.42783979550586,
+    "diff": 59.02384508754767
+  },
+  {
+    "timestamp": 1733475600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 33.02211952462676,
+    "diff": -9.40453946928028,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 98000.0
+  },
+  {
+    "timestamp": 1733500800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.2705794903595233,
+    "diff": 16.75176425668178
+  },
+  {
+    "timestamp": 1733724000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 35.37991901632631,
+    "diff": -2.692831731415936,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 99044.64
+  },
+  {
+    "timestamp": 1733925600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -25.86466625914909,
+    "diff": 83.45289854466682
+  },
+  {
+    "timestamp": 1734505200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 48.838962128036655,
+    "diff": -25.843340304651065,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 104250.75
+  },
+  {
+    "timestamp": 1735056000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -107.37056888724328,
+    "diff": 85.95942754167481
+  },
+  {
+    "timestamp": 1735200000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 628.9576268606179,
+    "diff": 459.544630936085,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 95878.56
+  },
+  {
+    "timestamp": 1735214400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 18.69284386151412,
+    "diff": -85.3982208223315
+  },
+  {
+    "timestamp": 1735653600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -79.21041659697948,
+    "diff": 37.77431049552979,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 95679.17
+  },
+  {
+    "timestamp": 1735714800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 7.077333652166999,
+    "diff": -4.136309531415463
+  },
+  {
+    "timestamp": 1735743600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -30.694337790846475,
+    "diff": 6.5021581841429,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 94432.94
+  },
+  {
+    "timestamp": 1736272800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 157.74812845219276,
+    "diff": -42.43684879624925
+  },
+  {
+    "timestamp": 1736632800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -7.945269814532367,
+    "diff": 0.8514960039465223,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 94593.8
+  },
+  {
+    "timestamp": 1736668800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 12.947663181446842,
+    "diff": -5.4015737481968245
+  },
+  {
+    "timestamp": 1736694000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -14.813689605754917,
+    "diff": 22.01485535223037,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 95071.9
+  },
+  {
+    "timestamp": 1736744400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 11.900327767521958,
+    "diff": -7.655125819001114
+  },
+  {
+    "timestamp": 1736827200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -60.45051876470097,
+    "diff": 23.25754953917931,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 95119.19
+  },
+  {
+    "timestamp": 1737334800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 159.33291242274572,
+    "diff": -32.933328299506684
+  },
+  {
+    "timestamp": 1737352800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -313.56363685184624,
+    "diff": -59.80177161382744,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 107486.5
+  },
+  {
+    "timestamp": 1737356400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -59.80177161382744,
+    "diff": 140.51615893990675
+  },
+  {
+    "timestamp": 1737417600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 67.86139952787198,
+    "diff": -122.23478900083865,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 101187.75
+  },
+  {
+    "timestamp": 1737482400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -62.51218709140085,
+    "diff": 110.61226499186887
+  },
+  {
+    "timestamp": 1737550800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 424.4137500222132,
+    "diff": 342.42000199666654,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 104073.94
+  },
+  {
+    "timestamp": 1737579600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 26.382206528345705,
+    "diff": -7.465764908542042
+  },
+  {
+    "timestamp": 1737698400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -10.433708983429824,
+    "diff": 52.939555531251244,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 104991.01
+  },
+  {
+    "timestamp": 1737932400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 39.0611112039478,
+    "diff": -87.375801733564
+  },
+  {
+    "timestamp": 1738083600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -13.340701534136315,
+    "diff": 1.6919074669131078,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 102572.82
+  },
+  {
+    "timestamp": 1738087200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.6919074669131078,
+    "diff": -5.808754204335855
+  },
+  {
+    "timestamp": 1738144800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -14.612930279792636,
+    "diff": 7.047374649147969,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 102547.01
+  },
+  {
+    "timestamp": 1738159200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 5.000360173653462,
+    "diff": -5.142280116226175
+  },
+  {
+    "timestamp": 1738173600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -5.976666419490357,
+    "diff": 31.670605793915456,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 102854.15
+  },
+  {
+    "timestamp": 1738353600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 57.20245724606502,
+    "diff": -90.67141515726689
+  },
+  {
+    "timestamp": 1738623600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -66.42389576883579,
+    "diff": 97.04989363461209,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 101328.52
+  },
+  {
+    "timestamp": 1738702800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 116.95280904356332,
+    "diff": -34.47692398804065
+  },
+  {
+    "timestamp": 1738821600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -440.59025342023233,
+    "diff": -372.44861217074504,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 98386.89
+  },
+  {
+    "timestamp": 1738936800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -109.35342596561532,
+    "diff": 21.534679687494645
+  },
+  {
+    "timestamp": 1738947600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 58.86629115167307,
+    "diff": 39.743254864763,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 97434.78
+  },
+  {
+    "timestamp": 1738954800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 40.742396038840525,
+    "diff": -6.352439769834746
+  },
+  {
+    "timestamp": 1739174400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -27.229861417756183,
+    "diff": 36.38150329035125,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 97683.99
+  },
+  {
+    "timestamp": 1739296800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 69.48560751762125,
+    "diff": -39.022034382549464
+  },
+  {
+    "timestamp": 1739394000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -122.90870073642873,
+    "diff": -48.92832092483877,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 97646.5
+  },
+  {
+    "timestamp": 1739397600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -48.92832092483877,
+    "diff": 24.5316668326559
+  },
+  {
+    "timestamp": 1739437200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 26.1006304564944,
+    "diff": -2.7059666705754353,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 96262.25
+  },
+  {
+    "timestamp": 1739516400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.251323621996562,
+    "diff": 21.63211364953895
+  },
+  {
+    "timestamp": 1739714400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 20.416759264771827,
+    "diff": -1.9441995557863265,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 96969.58
+  },
+  {
+    "timestamp": 1739980800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -22.348560828788322,
+    "diff": 8.803903174382867
+  },
+  {
+    "timestamp": 1740171600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 90.13881335883343,
+    "diff": -32.16612614993937,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 95395.03
+  },
+  {
+    "timestamp": 1740816000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -14.531590723388945,
+    "diff": 44.62496078122058
+  },
+  {
+    "timestamp": 1741042800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 163.5977137749287,
+    "diff": -16.764706116751768,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 86220.61
+  },
+  {
+    "timestamp": 1741165200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -48.91519295144826,
+    "diff": 49.23746299982304
+  },
+  {
+    "timestamp": 1741312800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 118.67421466863016,
+    "diff": -5.5218939092737855,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 87235.0
+  },
+  {
+    "timestamp": 1741734000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -66.26654393834178,
+    "diff": 7.861103508461383
+  },
+  {
+    "timestamp": 1741878000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 206.91663477652764,
+    "diff": 98.34463916224195,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 81044.72
+  },
+  {
+    "timestamp": 1741881600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 98.34463916224195,
+    "diff": -5.834171737427823
+  },
+  {
+    "timestamp": 1741942800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -165.57336578668037,
+    "diff": -109.53569195509772,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 82776.5
+  },
+  {
+    "timestamp": 1741950000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -45.52783284676843,
+    "diff": 22.099831169340177
+  },
+  {
+    "timestamp": 1742122800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 258.34455151835573,
+    "diff": 150.61027587654826,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 82410.02
+  },
+  {
+    "timestamp": 1742133600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.4833296118158614,
+    "diff": -19.567934706239612
+  },
+  {
+    "timestamp": 1742234400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -61.23473374314199,
+    "diff": 2.1615370418003295,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 84496.58
+  },
+  {
+    "timestamp": 1742270400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 32.55776957482158,
+    "diff": -3.6406659300700994
+  },
+  {
+    "timestamp": 1742382000.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -27.561297647102037,
+    "diff": 25.58939441545226,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 83881.4
+  },
+  {
+    "timestamp": 1742547600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 0.8429069845151389,
+    "diff": -20.128106133197434
+  },
+  {
+    "timestamp": 1742727600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -7.930321555293631,
+    "diff": 18.425114360870793,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 84679.99
+  },
+  {
+    "timestamp": 1743026400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 4.512061588146025,
+    "diff": -14.069601488343324
+  },
+  {
+    "timestamp": 1743037200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -14.652868140488863,
+    "diff": 0.2521179924515309,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 87378.87
+  },
+  {
+    "timestamp": 1743080400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 17.78127548530756,
+    "diff": -29.675891426260932
+  },
+  {
+    "timestamp": 1743109200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -32.130054469627794,
+    "diff": -5.564290121939848,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 87568.68
+  },
+  {
+    "timestamp": 1743112800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.564290121939848,
+    "diff": 5.33840247207263
+  },
+  {
+    "timestamp": 1743130800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 5.680611295087147,
+    "diff": -16.663416310344473,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 86787.16
+  },
+  {
+    "timestamp": 1743490800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -17.35247298188915,
+    "diff": 19.260534760149312
+  },
+  {
+    "timestamp": 1743656400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 39.01171504694503,
+    "diff": -23.032371828783653,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 83343.75
+  },
+  {
+    "timestamp": 1743796800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -26.02101625483192,
+    "diff": 19.791384589101654
+  },
+  {
+    "timestamp": 1743861600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 2.072614284537849,
+    "diff": -31.84988815621182,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 82914.67
+  },
+  {
+    "timestamp": 1744225200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -115.53839319066901,
+    "diff": 126.50432912635733
+  },
+  {
+    "timestamp": 1744297200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1035.4250475818699,
+    "diff": 850.9218347777933,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 78757.0
+  },
+  {
+    "timestamp": 1744758000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.9906885879900074,
+    "diff": -59.05805502059229
+  },
+  {
+    "timestamp": 1744819200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -215.15082825619902,
+    "diff": -152.10021237740875,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 85048.55
+  },
+  {
+    "timestamp": 1744880400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.100125559940352,
+    "diff": 8.458680784096941
+  },
+  {
+    "timestamp": 1745146800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 15.749849903659197,
+    "diff": -29.599760425946442,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 84129.83
+  },
+  {
+    "timestamp": 1745193600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -25.332446676620748,
+    "diff": 78.25247279775795
+  },
+  {
+    "timestamp": 1745769600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.6396891255135415,
+    "diff": -9.179908827354666,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 93881.82
+  },
+  {
+    "timestamp": 1745776800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -11.216067612433108,
+    "diff": 0.6978450314054498
+  },
+  {
+    "timestamp": 1745794800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 20.95789511570183,
+    "diff": -1.852012205097708,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 93749.3
+  },
+  {
+    "timestamp": 1745823600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -39.56991253353772,
+    "diff": 0.556143777386751
+  },
+  {
+    "timestamp": 1746018000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 109.54968633316457,
+    "diff": 5.663917738231248,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 93032.58
+  },
+  {
+    "timestamp": 1746021600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 5.663917738231248,
+    "diff": -46.99033644743031
+  },
+  {
+    "timestamp": 1746075600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -23.65525084985711,
+    "diff": 13.943589336937293,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 95147.96
+  },
+  {
+    "timestamp": 1746313200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 3.336490928733838,
+    "diff": -22.998863333952613
+  },
+  {
+    "timestamp": 1746572400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -53.73977040441241,
+    "diff": 71.33492159159505,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 96834.02
+  },
+  {
+    "timestamp": 1747069200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 73.0061301090609,
+    "diff": -0.128097315740888
+  },
+  {
+    "timestamp": 1747155600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -40.26554804954503,
+    "diff": 20.713070886369678,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 104268.17
+  },
+  {
+    "timestamp": 1747270800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 25.383418322977377,
+    "diff": -7.231743258234928
+  },
+  {
+    "timestamp": 1747357200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -19.589936263597338,
+    "diff": 30.865873178685433,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 104047.61
+  },
+  {
+    "timestamp": 1747472400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 20.34710813437414,
+    "diff": -15.217583443765761
+  },
+  {
+    "timestamp": 1747551600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -28.28589222980372,
+    "diff": 7.969852443187847,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 103919.39
+  },
+  {
+    "timestamp": 1747645200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 44.17471676920832,
+    "diff": -6.315836150519317
+  },
+  {
+    "timestamp": 1747670400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -52.210992669148254,
+    "diff": 40.99026978491747,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 105356.44
+  },
+  {
+    "timestamp": 1748034000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 26.19003073501517,
+    "diff": -53.154684957204154
+  },
+  {
+    "timestamp": 1748228400.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -11.140880199207459,
+    "diff": 64.31492408095801,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 109623.53
+  },
+  {
+    "timestamp": 1748412000.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 11.136342220750521,
+    "diff": -15.977934200243908
+  },
+  {
+    "timestamp": 1748815200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -39.08024039865995,
+    "diff": 9.015271262207534,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 105512.18
+  },
+  {
+    "timestamp": 1748865600.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 8.284206450014608,
+    "diff": -27.557738407122088
+  },
+  {
+    "timestamp": 1748901600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -89.5161427455605,
+    "diff": -24.817470665599103,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 105695.49
+  },
+  {
+    "timestamp": 1748905200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -24.817470665599103,
+    "diff": 40.620189081455464
+  },
+  {
+    "timestamp": 1749060000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 7.772863796417369,
+    "diff": -13.882798350139637,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 104951.54
+  },
+  {
+    "timestamp": 1749243600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.29673641386034433,
+    "diff": 22.443896716082236
+  },
+  {
+    "timestamp": 1749700800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 11.695280882529914,
+    "diff": -49.87926760595292,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 107765.12
+  },
+  {
+    "timestamp": 1750042800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -26.60113853866642,
+    "diff": 3.3606633565213997
+  },
+  {
+    "timestamp": 1750168800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 38.25565182456921,
+    "diff": -60.52828788578336,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 104847.33
+  },
+  {
+    "timestamp": 1750410000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -19.18297118776536,
+    "diff": 45.669622459448874
+  },
+  {
+    "timestamp": 1750428000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 216.68297033692943,
+    "diff": 135.9545980921248,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 103940.01
+  },
+  {
+    "timestamp": 1750438800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 1.9704702912422363,
+    "diff": -88.52478099495056
+  },
+  {
+    "timestamp": 1750708800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -110.5889526240062,
+    "diff": 4.446624757867539,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 103739.99
+  },
+  {
+    "timestamp": 1751317200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 5.399339664683794,
+    "diff": -22.334361515997443
+  },
+  {
+    "timestamp": 1751461200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -2.3033946589566767,
+    "diff": 50.29867595351243,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 107768.2
+  },
+  {
+    "timestamp": 1751644800.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 6.894676628959132,
+    "diff": -56.03147244245338
+  },
+  {
+    "timestamp": 1751752800.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -147.0148147407017,
+    "diff": -137.27204824147339,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 108188.47
+  },
+  {
+    "timestamp": 1751814000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -10.948709395874175,
+    "diff": 27.915050048570265
+  },
+  {
+    "timestamp": 1751911200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.936608872405486,
+    "diff": -25.581548455404118,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 108024.53
+  },
+  {
+    "timestamp": 1751979600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.6850900512654334,
+    "diff": 31.786146858881693
+  },
+  {
+    "timestamp": 1752559200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 7.970208243830712,
+    "diff": -113.8028224434529,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 117070.54
+  },
+  {
+    "timestamp": 1752674400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -23.8126533839677,
+    "diff": 26.66287262966216
+  },
+  {
+    "timestamp": 1752753600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 32.60119291699084,
+    "diff": -4.1426157382375095,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 117867.08
+  },
+  {
+    "timestamp": 1752760800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -12.823582493656431,
+    "diff": 7.070268375318847
+  },
+  {
+    "timestamp": 1752858000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 12.062616500639706,
+    "diff": -64.63234481441032,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 117600.01
+  },
+  {
+    "timestamp": 1753077600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -61.766185662927455,
+    "diff": 4.391818350137328
+  },
+  {
+    "timestamp": 1753120800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 55.51142230180267,
+    "diff": -10.5792226716585,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 117162.28
+  },
+  {
+    "timestamp": 1753185600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -7.775098427868215,
+    "diff": 67.29750912995951
+  },
+  {
+    "timestamp": 1753275600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 106.91202451220306,
+    "diff": 32.51134224348061,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 117381.44
+  },
+  {
+    "timestamp": 1753286400.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 17.88270425115479,
+    "diff": -26.57164713938255
+  },
+  {
+    "timestamp": 1753315200.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -30.37315645610215,
+    "diff": 8.349712749288301,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 119060.0
+  },
+  {
+    "timestamp": 1753333200.0,
+    "event": "entry_signal",
+    "side": "short",
+    "prev_diff": 24.196271033753874,
+    "diff": -26.514956736151362
+  },
+  {
+    "timestamp": 1753365600.0,
+    "event": "exit_signal",
+    "prior_pos": -1,
+    "prev_diff": -20.627279203079524,
+    "diff": 17.130100402093376,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "BUY",
+    "executed": true,
+    "price": 119057.11
+  }
+]

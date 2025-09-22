@@ -1,5 +1,4 @@
 # Backtester/loader.py
-
 import os
 from importlib.metadata import files
 from typing   import List

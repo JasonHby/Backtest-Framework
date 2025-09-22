@@ -60,7 +60,7 @@ print(f"✅ Done fetching {YEARS} years of {INTERVAL} bars.")
 
 
 
-
+# minute data extraction
 # import requests
 # import time
 # import pandas as pd

@@ -1,0 +1,27 @@
+{
+  "tag": "long",
+  "generated_at": "2025-09-02T15:42:40Z",
+  "starting_cash": 10000.0,
+  "n_trades": 63,
+  "date_range": [
+    1692144000.0,
+    1751223600.0
+  ],
+  "cta_params": {
+    "symbol": "BTCUSDT",
+    "short": 50,
+    "long": 336,
+    "qty": null,
+    "stop_atr": 2.5,
+    "atr_len": 50,
+    "allow_long": true,
+    "allow_short": true,
+    "take_profit_r1": 0.3,
+    "take_profit_frac1": 0.5,
+    "take_profit_r": 3,
+    "breakeven_r": 0.5,
+    "giveback_k": 4,
+    "prefer_giveback": false
+  },
+  "shortfall_coeff_k": 284.7269094461392
+}

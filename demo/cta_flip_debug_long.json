@@ -1,0 +1,2175 @@
+[
+  {
+    "timestamp": 1690570800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.6499204431711405,
+    "diff": 0.944478239340242
+  },
+  {
+    "timestamp": 1690754400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.15230635583066032,
+    "diff": -7.89104539861728,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29156.0
+  },
+  {
+    "timestamp": 1690761600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -8.490820321039791,
+    "diff": 0.4832787655177526
+  },
+  {
+    "timestamp": 1690826400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 8.237517507139273,
+    "diff": 0.5738374890388513,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29195.74
+  },
+  {
+    "timestamp": 1690938000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -12.188968586346164,
+    "diff": 22.30327898339965
+  },
+  {
+    "timestamp": 1690966800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 114.31989228202292,
+    "diff": 113.47528219745072,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29453.52
+  },
+  {
+    "timestamp": 1691452800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.4731877275335137,
+    "diff": 6.896930749866442
+  },
+  {
+    "timestamp": 1691496000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 51.571479877162346,
+    "diff": 70.46147531621318,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29578.57
+  },
+  {
+    "timestamp": 1692025200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -7.491304932078492,
+    "diff": 2.9801953400601633
+  },
+  {
+    "timestamp": 1692036000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 17.301314001913852,
+    "diff": 10.885074502890348,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 29330.01
+  },
+  {
+    "timestamp": 1692817200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -11.024264127201604,
+    "diff": 16.869729195903346
+  },
+  {
+    "timestamp": 1692885600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 117.99489537894988,
+    "diff": 101.39244232780766,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 26116.05
+  },
+  {
+    "timestamp": 1693245600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -4.486545454918087,
+    "diff": 0.2869529562558455
+  },
+  {
+    "timestamp": 1693249200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.2869529562558455,
+    "diff": -3.4721839787453064,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 25996.26
+  },
+  {
+    "timestamp": 1693270800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.3734067178993428,
+    "diff": 0.9165347643429413
+  },
+  {
+    "timestamp": 1693288800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 2.377963067508972,
+    "diff": -0.8921092166201561,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 26008.66
+  },
+  {
+    "timestamp": 1693317600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -16.209704908975255,
+    "diff": 60.711178209669015
+  },
+  {
+    "timestamp": 1693324800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 125.79847542605057,
+    "diff": 214.09061923572153,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 27999.99
+  },
+  {
+    "timestamp": 1694116800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.6312402179937635,
+    "diff": 6.414089041369152
+  },
+  {
+    "timestamp": 1694124000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 25.26579661636788,
+    "diff": 50.705147456646955,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 26323.99
+  },
+  {
+    "timestamp": 1694523600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -6.170337600116909,
+    "diff": 25.313970227889513
+  },
+  {
+    "timestamp": 1694786400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 197.04352720603492,
+    "diff": 177.43926204124728,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 26238.14
+  },
+  {
+    "timestamp": 1695816000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -21.028995150598348,
+    "diff": 1.3517049381007382
+  },
+  {
+    "timestamp": 1695823200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 16.06514955458624,
+    "diff": 6.648335560341366,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 26192.91
+  },
+  {
+    "timestamp": 1695862800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.424756246553443,
+    "diff": 1.2201211210849578
+  },
+  {
+    "timestamp": 1695909600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 51.03576799932853,
+    "diff": 69.04550238099546,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 26793.37
+  },
+  {
+    "timestamp": 1696417200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.790414377639536,
+    "diff": 2.4355849853200198
+  },
+  {
+    "timestamp": 1696428000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.138930899764091,
+    "diff": -2.0436675650198595,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 27386.94
+  },
+  {
+    "timestamp": 1696438800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.783150842093164,
+    "diff": 0.706106727480801
+  },
+  {
+    "timestamp": 1696510800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 82.67641461028688,
+    "diff": 98.51681230461327,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 27992.76
+  },
+  {
+    "timestamp": 1696579200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.47360100821606466,
+    "diff": 2.79987516978872
+  },
+  {
+    "timestamp": 1696604400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 8.629402076589031,
+    "diff": 27.863061881289468,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 27941.12
+  },
+  {
+    "timestamp": 1697396400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -4.326106039403385,
+    "diff": 3.2742937559305574
+  },
+  {
+    "timestamp": 1697400000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 3.2742937559305574,
+    "diff": 18.61375440840129,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 27206.21
+  },
+  {
+    "timestamp": 1699084800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -9.063759651879082,
+    "diff": 0.8691599036901607
+  },
+  {
+    "timestamp": 1699189200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 155.6869197414635,
+    "diff": 142.85601308662444,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 34831.04
+  },
+  {
+    "timestamp": 1699383600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -14.092275448703731,
+    "diff": 15.874073108978337
+  },
+  {
+    "timestamp": 1699495200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 257.46746900591825,
+    "diff": 296.48963185492175,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 36363.44
+  },
+  {
+    "timestamp": 1700082000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -19.536698194395285,
+    "diff": 48.13206474942126
+  },
+  {
+    "timestamp": 1700139600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 375.26564244156907,
+    "diff": 346.05598881734477,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 36770.0
+  },
+  {
+    "timestamp": 1700334000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.493945982656442,
+    "diff": 4.791391336002562
+  },
+  {
+    "timestamp": 1700434800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 101.34661491373845,
+    "diff": 134.80570983502548,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 37359.86
+  },
+  {
+    "timestamp": 1700690400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -17.996595927186718,
+    "diff": 14.812542678533646
+  },
+  {
+    "timestamp": 1700838000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 239.0553032052776,
+    "diff": 271.7649547292531,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 38221.11
+  },
+  {
+    "timestamp": 1701032400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.1461379923057393,
+    "diff": 0.8946822816433269
+  },
+  {
+    "timestamp": 1701039600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 5.549411475207307,
+    "diff": -1.1244213318204856,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 37447.43
+  },
+  {
+    "timestamp": 1701194400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.779784920581733,
+    "diff": 30.568348072381923
+  },
+  {
+    "timestamp": 1701266400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 296.76213429249765,
+    "diff": 282.96797282987245,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 37823.81
+  },
+  {
+    "timestamp": 1702512000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -18.015843927270907,
+    "diff": 26.196542968784343
+  },
+  {
+    "timestamp": 1702558800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 338.30185690391954,
+    "diff": 327.9293473902726,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42570.12
+  },
+  {
+    "timestamp": 1702947600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -60.63880832451832,
+    "diff": 20.717547799940803
+  },
+  {
+    "timestamp": 1702994400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 387.7984225117616,
+    "diff": 364.9298405738591,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42367.03
+  },
+  {
+    "timestamp": 1703721600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -4.819292517800932,
+    "diff": 25.848157375090523
+  },
+  {
+    "timestamp": 1703764800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 50.11267915974895,
+    "diff": 32.314860883801884,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42786.16
+  },
+  {
+    "timestamp": 1704042000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -12.27217188916984,
+    "diff": 0.015539611675194465
+  },
+  {
+    "timestamp": 1704135600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 121.17251979372668,
+    "diff": 164.80032669457432,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 43517.99
+  },
+  {
+    "timestamp": 1704405600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -26.6991749150111,
+    "diff": 9.902629031726974
+  },
+  {
+    "timestamp": 1704470400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 24.100323992235644,
+    "diff": -3.1949816417109105,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 43225.99
+  },
+  {
+    "timestamp": 1704484800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -15.048042639464256,
+    "diff": 0.2076828646895592
+  },
+  {
+    "timestamp": 1704690000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 7.910654897343193,
+    "diff": -4.581283860534313,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 43641.74
+  },
+  {
+    "timestamp": 1704697200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.4867802200824372,
+    "diff": 4.529960363877763
+  },
+  {
+    "timestamp": 1704704400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 4.326835723957629,
+    "diff": -3.653290237612964,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 43720.46
+  },
+  {
+    "timestamp": 1704708000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.653290237612964,
+    "diff": 8.592467277834658
+  },
+  {
+    "timestamp": 1704715200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 48.312134211329976,
+    "diff": 108.7387465760039,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 45111.09
+  },
+  {
+    "timestamp": 1706266800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -8.600767859177722,
+    "diff": 56.54861147315387
+  },
+  {
+    "timestamp": 1706284800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 257.4816930664092,
+    "diff": 328.26668227732443,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 41961.14
+  },
+  {
+    "timestamp": 1706828400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.4429459844322992,
+    "diff": 20.07905922424834
+  },
+  {
+    "timestamp": 1707026400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 56.12872790005349,
+    "diff": 39.47247973627236,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42746.13
+  },
+  {
+    "timestamp": 1707134400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -18.202604981299373,
+    "diff": 1.9365400472888723
+  },
+  {
+    "timestamp": 1707156000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.5428023268541438,
+    "diff": -9.119316356649506,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 42730.89
+  },
+  {
+    "timestamp": 1707231600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -21.709183793384,
+    "diff": 0.4475283479478094
+  },
+  {
+    "timestamp": 1707336000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 141.72705126026995,
+    "diff": 189.16087212572893,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 44131.37
+  },
+  {
+    "timestamp": 1708819200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -6.836790757988638,
+    "diff": 4.521053441822005
+  },
+  {
+    "timestamp": 1708876800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 132.05124601051648,
+    "diff": 119.90690143671964,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 51378.48
+  },
+  {
+    "timestamp": 1708959600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -6.7549754630890675,
+    "diff": 68.3244248542469
+  },
+  {
+    "timestamp": 1708966800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 164.21843198783608,
+    "diff": 255.53334701314452,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 53502.6
+  },
+  {
+    "timestamp": 1710986400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -45.738218923863315,
+    "diff": 72.09374116497202
+  },
+  {
+    "timestamp": 1711044000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 504.67876675848674,
+    "diff": 424.33277286314114,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 65133.67
+  },
+  {
+    "timestamp": 1711288800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -36.04252216587338,
+    "diff": 8.984719634718203
+  },
+  {
+    "timestamp": 1711321200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 354.97943583213055,
+    "diff": 437.9897547730943,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 67209.99
+  },
+  {
+    "timestamp": 1712260800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.6112891793454764,
+    "diff": 47.59472292011196
+  },
+  {
+    "timestamp": 1712451600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 467.21710647424334,
+    "diff": 525.0804173674696,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69541.65
+  },
+  {
+    "timestamp": 1712797200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -30.539716112063616,
+    "diff": 19.45997059639194
+  },
+  {
+    "timestamp": 1712930400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 299.28164665205986,
+    "diff": 226.05846966567333,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69270.01
+  },
+  {
+    "timestamp": 1713517200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -21.352700695475505,
+    "diff": 77.51598071858461
+  },
+  {
+    "timestamp": 1713970800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 349.07632784829184,
+    "diff": 246.19812618318247,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 64610.11
+  },
+  {
+    "timestamp": 1714744800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -93.76533586238656,
+    "diff": 24.736599183670478
+  },
+  {
+    "timestamp": 1714780800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 884.8513679793905,
+    "diff": 967.3351778074357,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 63083.99
+  },
+  {
+    "timestamp": 1715320800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -24.148764516416122,
+    "diff": 16.218177647839184
+  },
+  {
+    "timestamp": 1715349600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 174.95984643066186,
+    "diff": 81.93612882482557,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 61063.87
+  },
+  {
+    "timestamp": 1715587200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -69.2939863911015,
+    "diff": 9.478597704372078
+  },
+  {
+    "timestamp": 1715680800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 346.1468446590079,
+    "diff": 302.66480715302896,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 61719.01
+  },
+  {
+    "timestamp": 1715763600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.0822499599817093,
+    "diff": 37.90549751903745
+  },
+  {
+    "timestamp": 1715774400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 96.9294269423699,
+    "diff": 184.3026439757159,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 63757.56
+  },
+  {
+    "timestamp": 1716631200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.84104137653776,
+    "diff": 40.29455365224567
+  },
+  {
+    "timestamp": 1716742800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 169.26399901520927,
+    "diff": 150.62349545938196,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 68778.14
+  },
+  {
+    "timestamp": 1716822000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -10.88091716505005,
+    "diff": 71.99800535374379
+  },
+  {
+    "timestamp": 1716836400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 232.16667593742022,
+    "diff": 229.50181663357944,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69260.01
+  },
+  {
+    "timestamp": 1717092000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -62.66727036850352,
+    "diff": 1.8894643894018373
+  },
+  {
+    "timestamp": 1717135200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 71.87139034105348,
+    "diff": 63.90079452736245,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 68272.0
+  },
+  {
+    "timestamp": 1717380000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.3217510102695087,
+    "diff": 24.73745669220807
+  },
+  {
+    "timestamp": 1717416000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 316.7328802358679,
+    "diff": 376.4598783671099,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 69746.23
+  },
+  {
+    "timestamp": 1719752400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.5415261683592689,
+    "diff": 27.680953227405553
+  },
+  {
+    "timestamp": 1719784800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 206.88311087571492,
+    "diff": 273.1822060384293,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 62901.01
+  },
+  {
+    "timestamp": 1720519200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -21.820099513388413,
+    "diff": 4.981402749399422
+  },
+  {
+    "timestamp": 1720584000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 329.60746348863904,
+    "diff": 413.7459859451774,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 59347.44
+  },
+  {
+    "timestamp": 1720807200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -13.2060171544872,
+    "diff": 23.748226696116035
+  },
+  {
+    "timestamp": 1720908000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 381.0179327576552,
+    "diff": 427.7707885320342,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 59464.53
+  },
+  {
+    "timestamp": 1721973600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -16.82189420161012,
+    "diff": 52.581268093766994
+  },
+  {
+    "timestamp": 1722081600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 819.7872931424063,
+    "diff": 833.4690171029215,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 68400.0
+  },
+  {
+    "timestamp": 1723114800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -12.46388726567966,
+    "diff": 25.49397824578773
+  },
+  {
+    "timestamp": 1723129200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 223.42967453883466,
+    "diff": 346.4337544088485,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 59428.03
+  },
+  {
+    "timestamp": 1723572000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.2142665702776867,
+    "diff": 63.20905616564414
+  },
+  {
+    "timestamp": 1723651200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 343.0721496352926,
+    "diff": 267.88199136454205,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 59131.99
+  },
+  {
+    "timestamp": 1723878000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.6607725555149955,
+    "diff": 16.69313290817081
+  },
+  {
+    "timestamp": 1724022000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 252.1074237435896,
+    "diff": 182.55963226971653,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 58427.35
+  },
+  {
+    "timestamp": 1724115600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -42.92293365894875,
+    "diff": 32.9703677581565
+  },
+  {
+    "timestamp": 1724162400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 596.9524695275031,
+    "diff": 542.8230607627411,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 59461.8
+  },
+  {
+    "timestamp": 1725328800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -10.103702723397873,
+    "diff": 26.411634983305703
+  },
+  {
+    "timestamp": 1725372000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 105.85930904455017,
+    "diff": 41.55756990102964,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 57672.84
+  },
+  {
+    "timestamp": 1725886800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -33.56577282479702,
+    "diff": 10.2213147070579
+  },
+  {
+    "timestamp": 1725908400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 242.57517394886963,
+    "diff": 329.84605871114763,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 57089.54
+  },
+  {
+    "timestamp": 1726585200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -80.79768160505773,
+    "diff": 45.973055557813495
+  },
+  {
+    "timestamp": 1726650000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 554.0959435588738,
+    "diff": 520.1618611622762,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 59654.77
+  },
+  {
+    "timestamp": 1727330400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -1.6468400102457963,
+    "diff": 10.728374051832361
+  },
+  {
+    "timestamp": 1727362800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 224.36749804974534,
+    "diff": 290.2182920241612,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 65229.03
+  },
+  {
+    "timestamp": 1728079200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -9.988547689164989,
+    "diff": 19.87881787535298
+  },
+  {
+    "timestamp": 1728158400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 149.2641762123385,
+    "diff": 130.4605540962002,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 61723.38
+  },
+  {
+    "timestamp": 1728669600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -61.08348236075835,
+    "diff": 27.86434318200918
+  },
+  {
+    "timestamp": 1728828000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 383.20774132362567,
+    "diff": 343.65235724137165,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 62249.6
+  },
+  {
+    "timestamp": 1729792800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -3.7226083750574617,
+    "diff": 27.11929128767224
+  },
+  {
+    "timestamp": 1729828800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 270.25725615966076,
+    "diff": 263.6377058964863,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 67744.0
+  },
+  {
+    "timestamp": 1730041200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -18.137002709976514,
+    "diff": 11.774505996741937
+  },
+  {
+    "timestamp": 1730077200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 195.06234653954743,
+    "diff": 198.0956476276624,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 67751.89
+  },
+  {
+    "timestamp": 1730826000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.509918099138304,
+    "diff": 53.070710420259275
+  },
+  {
+    "timestamp": 1730858400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 356.41921395165264,
+    "diff": 538.1273175523093,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 73077.05
+  },
+  {
+    "timestamp": 1732507200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -8.648852315513068,
+    "diff": 12.52833188092336
+  },
+  {
+    "timestamp": 1732543200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 197.48595819540787,
+    "diff": 66.93281772914634,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 95385.49
+  },
+  {
+    "timestamp": 1732748400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -26.759454324943363,
+    "diff": 33.668245592620224
+  },
+  {
+    "timestamp": 1732863600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 409.47675290255575,
+    "diff": 395.3198638292524,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 95625.05
+  },
+  {
+    "timestamp": 1733302800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -25.82723131176317,
+    "diff": 20.64200534397969
+  },
+  {
+    "timestamp": 1733324400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 12.204525721870596,
+    "diff": -2.2071762881969335,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 95742.81
+  },
+  {
+    "timestamp": 1733338800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -64.08269357049721,
+    "diff": 7.145311470841989
+  },
+  {
+    "timestamp": 1733364000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 553.39873994964,
+    "diff": 767.3576754216774,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 101248.19
+  },
+  {
+    "timestamp": 1733932800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -40.07685006437532,
+    "diff": 102.12371395104856
+  },
+  {
+    "timestamp": 1733986800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1088.6314447251643,
+    "diff": 1083.8254474199348,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 100499.99
+  },
+  {
+    "timestamp": 1735066800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -41.56406029115897,
+    "diff": 50.78849652319332
+  },
+  {
+    "timestamp": 1735200000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 855.2717464304005,
+    "diff": 699.1735290986107,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 95878.56
+  },
+  {
+    "timestamp": 1735761600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -9.052935918880394,
+    "diff": 33.73489230350242
+  },
+  {
+    "timestamp": 1735804800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 464.236002435704,
+    "diff": 522.6943000009196,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 96150.0
+  },
+  {
+    "timestamp": 1736841600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -12.106694144225912,
+    "diff": 66.11536307861388
+  },
+  {
+    "timestamp": 1736946000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1075.815141176703,
+    "diff": 1169.8090918815433,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 98964.0
+  },
+  {
+    "timestamp": 1737478800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -66.54736171598779,
+    "diff": 70.73171234437905
+  },
+  {
+    "timestamp": 1737561600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 458.6864311128156,
+    "diff": 379.9051166703721,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 103704.64
+  },
+  {
+    "timestamp": 1737702000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -10.021297710351064,
+    "diff": 49.02881939530198
+  },
+  {
+    "timestamp": 1737932400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 114.76098041905789,
+    "diff": -5.86425520812918,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 102620.0
+  },
+  {
+    "timestamp": 1738180800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -56.741274613756104,
+    "diff": 42.595633587567136
+  },
+  {
+    "timestamp": 1738296000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 880.4854666225729,
+    "diff": 815.4069655147614,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 104007.58
+  },
+  {
+    "timestamp": 1739181600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -53.26305909012444,
+    "diff": 1.132758863925119
+  },
+  {
+    "timestamp": 1739289600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 298.2790597592684,
+    "diff": 226.156885302742,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 96365.05
+  },
+  {
+    "timestamp": 1739404800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -17.907472504623,
+    "diff": 40.9327911779983
+  },
+  {
+    "timestamp": 1739433600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 32.372410679701716,
+    "diff": -14.50927204740583,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 95943.62
+  },
+  {
+    "timestamp": 1739523600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -27.13122121397464,
+    "diff": 2.9202397167828167
+  },
+  {
+    "timestamp": 1739552400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 130.86063581825874,
+    "diff": 217.90873238063068,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 98526.0
+  },
+  {
+    "timestamp": 1740006000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -23.204653988577775,
+    "diff": 13.65647189966694
+  },
+  {
+    "timestamp": 1740070800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 463.38537621589785,
+    "diff": 506.7044856588618,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 97954.95
+  },
+  {
+    "timestamp": 1740873600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -43.627790520651615,
+    "diff": 7.922977045251173
+  },
+  {
+    "timestamp": 1740931200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 344.77326227699814,
+    "diff": 620.2305153581983,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 91200.0
+  },
+  {
+    "timestamp": 1741168800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -136.09693583784974,
+    "diff": 30.990497614009655
+  },
+  {
+    "timestamp": 1741266000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1565.176185780234,
+    "diff": 1474.33516472482,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 89569.13
+  },
+  {
+    "timestamp": 1741816800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -7.268864513243898,
+    "diff": 58.69581549552095
+  },
+  {
+    "timestamp": 1741878000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 157.01090783649124,
+    "diff": 59.05333798303036,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 81044.72
+  },
+  {
+    "timestamp": 1741957200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -31.837352670685505,
+    "diff": 39.41417254820408
+  },
+  {
+    "timestamp": 1742122800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 458.79695805440133,
+    "diff": 355.1766137259692,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 82410.02
+  },
+  {
+    "timestamp": 1742234400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -36.770889498875476,
+    "diff": 21.262106690817745
+  },
+  {
+    "timestamp": 1742270400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 65.05867608543485,
+    "diff": 30.912447417489602,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 82989.11
+  },
+  {
+    "timestamp": 1742389200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -35.52057678568235,
+    "diff": 19.703447595456964
+  },
+  {
+    "timestamp": 1742407200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 252.05002622911707,
+    "diff": 355.38679617959133,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 85612.25
+  },
+  {
+    "timestamp": 1742727600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -8.122110408206936,
+    "diff": 16.878957240609452
+  },
+  {
+    "timestamp": 1742742000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 109.65794366986665,
+    "diff": 148.5143873164634,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 85189.41
+  },
+  {
+    "timestamp": 1743505200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -36.6085899338068,
+    "diff": 6.350784268390271
+  },
+  {
+    "timestamp": 1743602400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 602.436596321335,
+    "diff": 652.7771531008184,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 85877.75
+  },
+  {
+    "timestamp": 1743807600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -16.56743108309456,
+    "diff": 3.8182242479815613
+  },
+  {
+    "timestamp": 1743858000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 18.34110600357235,
+    "diff": -25.86444177517842,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 82755.29
+  },
+  {
+    "timestamp": 1744232400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -124.51305453537498,
+    "diff": 117.64779176519369
+  },
+  {
+    "timestamp": 1744290000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1125.0976283033524,
+    "diff": 1079.514590345556,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 80874.36
+  },
+  {
+    "timestamp": 1744873200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -14.147101049486082,
+    "diff": 8.543365659483243
+  },
+  {
+    "timestamp": 1745136000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 210.79143912658037,
+    "diff": 181.8980789691559,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 84647.3
+  },
+  {
+    "timestamp": 1745190000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -10.964597924728878,
+    "diff": 10.937222940192441
+  },
+  {
+    "timestamp": 1745193600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 10.937222940192441,
+    "diff": 106.59758709397283,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 86625.68
+  },
+  {
+    "timestamp": 1746068400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -18.452851647802163,
+    "diff": 0.27249245819984935
+  },
+  {
+    "timestamp": 1746093600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 164.00174093595706,
+    "diff": 235.30661745740508,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 96169.01
+  },
+  {
+    "timestamp": 1746576000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -109.2421674663783,
+    "diff": 32.00946719630156
+  },
+  {
+    "timestamp": 1746673200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 888.4525150904228,
+    "diff": 981.8660328012193,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 99152.79
+  },
+  {
+    "timestamp": 1747144800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -0.3585998755443143,
+    "diff": 4.623727053272887
+  },
+  {
+    "timestamp": 1747270800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 121.29445631609997,
+    "diff": 88.11129297147272,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 103033.52
+  },
+  {
+    "timestamp": 1747360800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -8.471165381197352,
+    "diff": 43.6779258990573
+  },
+  {
+    "timestamp": 1747443600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 169.15278877248056,
+    "diff": 121.54842177341925,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 102829.57
+  },
+  {
+    "timestamp": 1747555200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -6.523938390135299,
+    "diff": 23.74916493053024
+  },
+  {
+    "timestamp": 1747573200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 107.32519792621315,
+    "diff": 168.39794408914167,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 104740.0
+  },
+  {
+    "timestamp": 1747666800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -31.091217869601678,
+    "diff": 28.41924069385277
+  },
+  {
+    "timestamp": 1747742400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 673.3242365540209,
+    "diff": 634.2981701964309,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 104780.0
+  },
+  {
+    "timestamp": 1748232000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -33.30322767380858,
+    "diff": 30.446006773490808
+  },
+  {
+    "timestamp": 1748437200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 0.8812406794895651,
+    "diff": -51.45832165807951,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 108068.45
+  },
+  {
+    "timestamp": 1748912400.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -34.22673422684602,
+    "diff": 49.185162708570715
+  },
+  {
+    "timestamp": 1748937600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 119.93394383091072,
+    "diff": 112.69668030634057,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 105094.93
+  },
+  {
+    "timestamp": 1749268800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -28.40311319673492,
+    "diff": 5.662667623400921
+  },
+  {
+    "timestamp": 1749394800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 460.02403693240194,
+    "diff": 475.46199583671114,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 105984.52
+  },
+  {
+    "timestamp": 1750057200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.167893860081676,
+    "diff": 68.06702853491879
+  },
+  {
+    "timestamp": 1750096800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 549.4547294016083,
+    "diff": 619.6823649996513,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 108255.96
+  },
+  {
+    "timestamp": 1750417200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -52.70618623678456,
+    "diff": 2.8344112820050213
+  },
+  {
+    "timestamp": 1750428000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 81.13020800650702,
+    "diff": 15.096353229280794,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 103940.01
+  },
+  {
+    "timestamp": 1750719600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -71.15123186162964,
+    "diff": 90.25184500587056
+  },
+  {
+    "timestamp": 1750856400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 1439.0432327078015,
+    "diff": 1490.7803059487487,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 107923.21
+  },
+  {
+    "timestamp": 1751464800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -68.62727550088312,
+    "diff": 0.27420825518493075
+  },
+  {
+    "timestamp": 1751472000.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 93.36956504457339,
+    "diff": 211.98771264834795,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 109413.02
+  },
+  {
+    "timestamp": 1751814000.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -30.36735792759282,
+    "diff": 7.233776581342681
+  },
+  {
+    "timestamp": 1751846400.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 199.6481284947222,
+    "diff": 206.8014567817154,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 108823.07
+  },
+  {
+    "timestamp": 1751979600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -7.062834030788508,
+    "diff": 26.6636892958486
+  },
+  {
+    "timestamp": 1752087600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 261.53158427342714,
+    "diff": 401.6014458540012,
+    "reason": "take_profit",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 111750.0
+  },
+  {
+    "timestamp": 1752670800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -24.260289232886862,
+    "diff": 8.687374427114264
+  },
+  {
+    "timestamp": 1752703200.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 357.61339038009464,
+    "diff": 343.4569651230413,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 118639.34
+  },
+  {
+    "timestamp": 1753081200.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -61.6520414101833,
+    "diff": 5.26754155101662
+  },
+  {
+    "timestamp": 1753120800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 32.6643627074227,
+    "diff": -27.58490250853356,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 117162.28
+  },
+  {
+    "timestamp": 1753192800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -5.728103447967442,
+    "diff": 47.277885102375876
+  },
+  {
+    "timestamp": 1753275600.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 184.53225634322735,
+    "diff": 113.30111024012149,
+    "reason": "stop_loss",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 117381.44
+  },
+  {
+    "timestamp": 1753311600.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.692425438508508,
+    "diff": 17.184286060510203
+  },
+  {
+    "timestamp": 1753336800.0,
+    "event": "exit_signal",
+    "prior_pos": 1,
+    "prev_diff": 15.2197900848696,
+    "diff": -35.54974993875658,
+    "reason": "ema_flip",
+    "just_exited_before": false,
+    "side": "SELL",
+    "executed": true,
+    "price": 117466.81
+  },
+  {
+    "timestamp": 1753354800.0,
+    "event": "entry_signal",
+    "side": "long",
+    "prev_diff": -2.4892622213665163,
+    "diff": 8.384676438116003
+  }
+]

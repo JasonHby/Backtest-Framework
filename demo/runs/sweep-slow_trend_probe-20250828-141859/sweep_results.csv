@@ -1,0 +1,1 @@
+short,long,atr_len,stop_atr,take_profit_r1,take_profit_frac1,breakeven_r,take_profit_r,giveback_k,prefer_giveback,allow_long,allow_short,n_trades,realized_return_pct,cagr,max_dd_pct,dd_multiple,calmar,sharpe_ann,profit_factor,win_rate_pct,avg_hold_hours,total_slip,avg_slip_pct,k,k_scale,train_bars,test_bars,train_start_dt,train_end_dt,test_start_dt,test_end_dt

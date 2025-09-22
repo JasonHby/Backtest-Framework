@@ -2,7 +2,7 @@ from __future__ import annotations
 from collections import deque
 from typing import Deque, List
 
-from core.events import Event
+from core.events import Event,COMM
 from core.fsm import Agent
 
 # ────────────────────────────────
