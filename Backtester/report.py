@@ -1,16 +1,31 @@
 # backtester/report.py
+from __future__ import annotations
+
 import os
-import pandas as pd
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
 import csv, json, shutil
 import math
 from pathlib import Path
-import matplotlib.dates as mdates
 from zoneinfo import ZoneInfo
 import statistics
 from datetime import datetime, timezone
 from typing import List, Tuple, Dict, Optional
+
+try:
+    import pandas as pd
+except ImportError:
+    pd = None
+
+try:
+    import matplotlib.pyplot as plt
+    import matplotlib.dates as mdates
+except ImportError:
+    plt = None
+    mdates = None
+
+try:
+    import plotly.graph_objects as go
+except ImportError:
+    go = None
 
 
 def build_trade_signals_figure(
@@ -39,6 +54,9 @@ def build_trade_signals_figure(
     show_labels : bool
         If True, shows the partial-exit reason text near each marker.
     """
+    if pd is None or go is None:
+        raise RuntimeError("Trade signal chart requires pandas and plotly to be installed.")
+
     # 1) Load data
     price_df = pd.read_csv(price_csv)
     trades_df = pd.read_csv(trade_csv)
@@ -667,6 +685,9 @@ def plot_comparison(
     Compare benchmark buy-and-hold vs strategy cash-path.
     Strategy line is a step function that updates only at trade exits.
     """
+    if plt is None or mdates is None:
+        raise RuntimeError("Comparison plot requires matplotlib to be installed.")
+
     if not underlying:
         print("⚠️  No underlying price data.")
         return

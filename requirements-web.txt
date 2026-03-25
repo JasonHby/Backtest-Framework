@@ -1,0 +1,5 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pandas>=2.2
+matplotlib>=3.8
+plotly>=5.24

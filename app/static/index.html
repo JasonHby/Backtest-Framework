@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backtest Framework</title>
+  <style>
+    :root {
+      --bg: #f4efe5;
+      --panel: #fffaf1;
+      --ink: #1f2522;
+      --muted: #6a726d;
+      --accent: #0f766e;
+      --accent-2: #d97706;
+      --line: #d6ccb8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, rgba(217,119,6,0.10), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(15,118,110,0.10), transparent 26%),
+        var(--bg);
+      color: var(--ink);
+    }
+    .shell {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 3.8rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+    .lead {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 18px;
+      box-shadow: 0 12px 30px rgba(31, 37, 34, 0.06);
+    }
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 1.1rem;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    input, select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: #fff;
+      font: inherit;
+      color: var(--ink);
+    }
+    .full { grid-column: 1 / -1; }
+    button {
+      width: 100%;
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 18px;
+      margin-top: 16px;
+      background: linear-gradient(135deg, var(--accent), #115e59);
+      color: #fff;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:disabled { opacity: 0.6; cursor: wait; }
+    .status {
+      margin-top: 12px;
+      min-height: 1.3rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .cards.secondary {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      margin-top: -4px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    .card .label {
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .card .value {
+      margin-top: 8px;
+      font-size: 1.45rem;
+      font-weight: 700;
+    }
+    .chart-wrap {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 12px;
+      background: #fff;
+      margin-bottom: 18px;
+    }
+    .iframe-wrap {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 12px;
+      background: #fff;
+      margin-bottom: 18px;
+    }
+    iframe {
+      width: 100%;
+      min-height: 720px;
+      border: 0;
+      border-radius: 12px;
+      background: #fff;
+    }
+    svg { width: 100%; height: 260px; display: block; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+    th, td {
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+    }
+    th { color: var(--muted); font-weight: 600; }
+    .result-empty {
+      min-height: 320px;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      text-align: center;
+      border: 1px dashed var(--line);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.55);
+    }
+    @media (max-width: 980px) {
+      .grid { grid-template-columns: 1fr; }
+      .cards { grid-template-columns: 1fr 1fr; }
+      .cards.secondary { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 640px) {
+      .form-grid, .cards, .cards.secondary { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <h1>Event-Driven Backtest Lab</h1>
+    <p class="lead">Run the generalized event-driven CTA engine, keep the ADV slippage model, and inspect summary, trades, and a quick equity curve from one page.</p>
+
+    <div class="grid">
+      <section class="panel">
+        <h2>Run CTA</h2>
+        <form id="backtest-form">
+          <div class="form-grid">
+            <div class="full">
+              <label for="portfolio_id">Portfolio ID</label>
+              <input id="portfolio_id" value="main">
+            </div>
+            <div>
+              <label for="starting_cash">Starting Cash</label>
+              <input id="starting_cash" type="number" step="100" value="10000">
+            </div>
+            <div>
+              <label for="symbol">Symbol</label>
+              <input id="symbol" value="BTCUSDT">
+            </div>
+            <div>
+              <label for="short">Short EMA</label>
+              <input id="short" type="number" value="50">
+            </div>
+            <div>
+              <label for="long">Long EMA</label>
+              <input id="long" type="number" value="336">
+            </div>
+            <div>
+              <label for="atr_len">ATR Length</label>
+              <input id="atr_len" type="number" value="50">
+            </div>
+            <div>
+              <label for="stop_atr">Stop ATR</label>
+              <input id="stop_atr" type="number" step="0.1" value="2.5">
+            </div>
+            <div>
+              <label for="take_profit_r1">Partial TP R</label>
+              <input id="take_profit_r1" type="number" step="0.1" value="0.3">
+            </div>
+            <div>
+              <label for="take_profit_frac1">Partial TP Fraction</label>
+              <input id="take_profit_frac1" type="number" step="0.1" value="0.5">
+            </div>
+            <div>
+              <label for="take_profit_r">Full TP R</label>
+              <input id="take_profit_r" type="number" step="0.1" value="3">
+            </div>
+            <div>
+              <label for="breakeven_r">Breakeven R</label>
+              <input id="breakeven_r" type="number" step="0.1" value="0.5">
+            </div>
+            <div>
+              <label for="giveback_k">Giveback ATR</label>
+              <input id="giveback_k" type="number" step="0.1" value="4">
+            </div>
+            <div>
+              <label for="allow_long">Allow Long</label>
+              <select id="allow_long">
+                <option value="true" selected>true</option>
+                <option value="false">false</option>
+              </select>
+            </div>
+            <div>
+              <label for="allow_short">Allow Short</label>
+              <select id="allow_short">
+                <option value="true" selected>true</option>
+                <option value="false">false</option>
+              </select>
+            </div>
+          </div>
+          <button id="run-btn" type="submit">Run Backtest</button>
+          <div class="status" id="status">Ready.</div>
+        </form>
+      </section>
+
+      <section id="results" class="panel">
+        <div class="result-empty">Run a backtest to see summary cards, an equity curve, and trade details.</div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("backtest-form");
+    const resultsEl = document.getElementById("results");
+    const statusEl = document.getElementById("status");
+    const runBtn = document.getElementById("run-btn");
+
+    function boolValue(id) {
+      return document.getElementById(id).value === "true";
+    }
+
+    function numberValue(id) {
+      return Number(document.getElementById(id).value);
+    }
+
+    function drawEquitySvg(points) {
+      if (!points.length) {
+        return "<div class='result-empty'>No equity curve available.</div>";
+      }
+      const width = 900;
+      const height = 260;
+      const pad = 20;
+      const xs = points.map((_, idx) => idx);
+      const ys = points.map((p) => p.equity);
+      const minY = Math.min(...ys);
+      const maxY = Math.max(...ys);
+      const ySpan = Math.max(maxY - minY, 1);
+      const xSpan = Math.max(xs.length - 1, 1);
+      const coords = points.map((p, idx) => {
+        const x = pad + (idx / xSpan) * (width - pad * 2);
+        const y = height - pad - ((p.equity - minY) / ySpan) * (height - pad * 2);
+        return `${x},${y}`;
+      }).join(" ");
+      return `
+        <div class="chart-wrap">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin:0 4px 10px;">
+            <strong>Equity Curve</strong>
+            <span style="color:var(--muted);font-size:0.9rem;">Realized cash path</span>
+          </div>
+          <svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-label="equity curve">
+            <rect x="0" y="0" width="${width}" height="${height}" fill="#fff"/>
+            <line x1="${pad}" y1="${height-pad}" x2="${width-pad}" y2="${height-pad}" stroke="#d6ccb8"/>
+            <line x1="${pad}" y1="${pad}" x2="${pad}" y2="${height-pad}" stroke="#d6ccb8"/>
+            <polyline fill="none" stroke="#0f766e" stroke-width="3" points="${coords}"/>
+          </svg>
+        </div>
+      `;
+    }
+
+    function renderTrades(trades) {
+      if (!trades.length) {
+        return "<div class='result-empty'>No closed trades in this run.</div>";
+      }
+      const rows = trades.map((trade) => `
+        <tr>
+          <td>${trade.trade_type || "-"}</td>
+          <td>${trade.exit_reason || "-"}</td>
+          <td>${Number(trade.entry_price).toFixed(2)}</td>
+          <td>${Number(trade.exit_price).toFixed(2)}</td>
+          <td>${Number(trade.qty).toFixed(6)}</td>
+          <td>${Number(trade.pnl).toFixed(2)}</td>
+          <td>${Number(trade.return_pct).toFixed(2)}%</td>
+          <td>${trade.portfolio_id || "main"}</td>
+        </tr>
+      `).join("");
+      return `
+        <div class="panel" style="padding:0;border:none;box-shadow:none;background:transparent;">
+          <h2 style="margin-bottom:10px;">Closed Trades</h2>
+          <div style="overflow:auto;">
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Exit Reason</th>
+                  <th>Entry</th>
+                  <th>Exit</th>
+                  <th>Qty</th>
+                  <th>PnL</th>
+                  <th>Return</th>
+                  <th>Portfolio</th>
+                </tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderResult(data) {
+      const s = data.summary;
+      const fmt = (value, digits = 2, suffix = "") =>
+        value === null || value === undefined || Number.isNaN(Number(value))
+          ? "-"
+          : `${Number(value).toFixed(digits)}${suffix}`;
+      resultsEl.innerHTML = `
+        <div class="cards">
+          <div class="card"><div class="label">Final Cash</div><div class="value">$${Number(s.final_cash).toFixed(2)}</div></div>
+          <div class="card"><div class="label">Total Return</div><div class="value">${fmt(s.total_return_pct, 2, "%")}</div></div>
+          <div class="card"><div class="label">Max Drawdown</div><div class="value">${fmt(s.max_drawdown_pct, 2, "%")}</div></div>
+          <div class="card"><div class="label">Win Rate</div><div class="value">${fmt(s.win_rate_pct, 2, "%")}</div></div>
+        </div>
+        <div class="cards secondary">
+          <div class="card"><div class="label">Sharpe</div><div class="value">${fmt(s.sharpe_ann)}</div></div>
+          <div class="card"><div class="label">Calmar</div><div class="value">${fmt(s.calmar)}</div></div>
+          <div class="card"><div class="label">CAGR</div><div class="value">${s.cagr === null || s.cagr === undefined ? "-" : fmt(s.cagr * 100, 2, "%")}</div></div>
+          <div class="card"><div class="label">Profit Factor</div><div class="value">${fmt(s.profit_factor)}</div></div>
+          <div class="card"><div class="label">Avg Hold</div><div class="value">${fmt(s.avg_hold_hours, 1, "h")}</div></div>
+        </div>
+        ${drawEquitySvg(data.equity_curve)}
+        ${data.signal_chart_url ? `
+          <div class="iframe-wrap">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin:0 4px 10px;">
+              <strong>Trade Signal Chart</strong>
+              <a href="${data.signal_chart_url}" target="_blank" style="color:var(--accent);text-decoration:none;">Open standalone</a>
+            </div>
+            <iframe src="${data.signal_chart_url}" title="trade signal chart"></iframe>
+          </div>
+        ` : `
+          <div class="iframe-wrap">
+            <div style="color:var(--muted);font-size:0.95rem;line-height:1.5;">
+              Trade signal chart is unavailable for this run. If you just updated dependencies, restart <code>uvicorn</code> and run the backtest again.
+            </div>
+          </div>
+        `}
+        ${renderTrades(data.trades)}
+      `;
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      runBtn.disabled = true;
+      statusEl.textContent = "Running event-driven backtest...";
+
+      const payload = {
+        strategy_name: "cta",
+        portfolio_id: document.getElementById("portfolio_id").value || "main",
+        starting_cash: numberValue("starting_cash"),
+        strategy_params: {
+          symbol: document.getElementById("symbol").value || "BTCUSDT",
+          short: numberValue("short"),
+          long: numberValue("long"),
+          atr_len: numberValue("atr_len"),
+          stop_atr: numberValue("stop_atr"),
+          take_profit_r1: numberValue("take_profit_r1"),
+          take_profit_frac1: numberValue("take_profit_frac1"),
+          take_profit_r: numberValue("take_profit_r"),
+          breakeven_r: numberValue("breakeven_r"),
+          giveback_k: numberValue("giveback_k"),
+          allow_long: boolValue("allow_long"),
+          allow_short: boolValue("allow_short")
+        }
+      };
+
+      try {
+        const response = await fetch("/api/backtests", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data = await response.json();
+        if (!response.ok) {
+          throw new Error(data.detail || "Backtest failed");
+        }
+        renderResult(data);
+        statusEl.textContent = `Completed. Backtest ID: ${data.backtest_id}`;
+      } catch (error) {
+        statusEl.textContent = error.message;
+      } finally {
+        runBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

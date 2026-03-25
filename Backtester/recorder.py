@@ -28,6 +28,8 @@ class Recorder(Agent):
 
         if isinstance(e, PartialExitReport):
             rec = {
+                "portfolio_id": getattr(e, "portfolio_id", "main") or "main",
+                "security": getattr(e, "security", "") or "",
                 "entry_ts": float(getattr(e, "entry_ts", 0.0) or 0.0),
                 "exit_ts": float(getattr(e, "exit_ts", 0.0) or 0.0),
                 "entry_price": float(getattr(e, "entry_price", 0.0) or 0.0),
@@ -51,6 +53,8 @@ class Recorder(Agent):
                                    float(getattr(e, "entry_ts", 0.0) or 0.0))
 
             rec = {
+                "portfolio_id": getattr(e, "portfolio_id", "main") or "main",
+                "security": getattr(e, "security", "") or "",
                 "entry_ts": float(getattr(e, "entry_ts", 0.0) or 0.0),
                 "exit_ts": float(getattr(e, "exit_ts", 0.0) or 0.0),
                 "entry_price": float(getattr(e, "entry_price", 0.0) or 0.0),

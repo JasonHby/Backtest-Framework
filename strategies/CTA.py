@@ -5,7 +5,7 @@ from collections import deque
 from typing import Deque, List, Optional, Tuple
 
 from core.fsm        import Agent
-from core.events     import BAR, COMM, InvUpdate
+from core.events     import BAR, InvUpdate, OrderRequest, QuantityType
 from core.plumbing   import emit
 from core.indicators import ema, true_range
 from pathlib import Path
@@ -38,6 +38,7 @@ class CTA(Agent):
         breakeven_r:     Optional[float] = None,  # arm breakeven after this many R
         giveback_k:      Optional[float] = None,  # full exit when drawdown from extreme >= k * ATR
         prefer_giveback: bool            = False, # True: giveback has priority over fixed TP
+        portfolio_id: str                = "main",
     ):
         super().__init__(name=f"CTA_{symbol}")
 
@@ -52,6 +53,7 @@ class CTA(Agent):
         self.atr_len      = atr_len
         self.allow_long   = allow_long
         self.allow_short  = allow_short
+        self.portfolio_id = portfolio_id
         self.bar_count: int = 0
 
         # exits config
@@ -94,10 +96,48 @@ class CTA(Agent):
         p = Path(path)
         p.write_text(json.dumps(self._debug_flips, indent=2))
 
+    def _emit_order(
+        self,
+        timestamp: float,
+        side: str,
+        *,
+        reason: str,
+        quantity: Optional[float] = None,
+        quantity_type: Optional[QuantityType] = None,
+        order_type: str = "market",
+        reduce_only: bool = False,
+    ) -> None:
+        if quantity_type is None:
+            if quantity is None:
+                quantity_type = "all_position" if reduce_only else "all_cash"
+            else:
+                quantity_type = "units"
+
+        emit(
+            OrderRequest(
+                timestamp=timestamp,
+                sender=self.name,
+                portfolio_id=self.portfolio_id,
+                security=self.symbol,
+                side=side,
+                quantity=quantity,
+                quantity_type=quantity_type,
+                order_type=order_type,
+                reduce_only=reduce_only,
+                reason=reason,
+            )
+        )
+
     # ---------- framework I/O ----------
     def observe(self, e) -> bool:
         # listen to BAR of this symbol, and InvUpdate (for current position)
-        return (isinstance(e, BAR) and e.security == self.symbol) or isinstance(e, InvUpdate)
+        return (
+            isinstance(e, BAR) and e.security == self.symbol
+        ) or (
+            isinstance(e, InvUpdate)
+            and e.security == self.symbol
+            and e.portfolio_id == self.portfolio_id
+        )
 
     def preprocess(self, e: BAR) -> None:
         if not isinstance(e, BAR):
@@ -182,9 +222,15 @@ class CTA(Agent):
             if moved >= self.take_profit_r1 * self.initial_risk:
                 units = abs(self.current_units)
                 if units > 0:
-                    close_qty = units * float(self.take_profit_frac1)
                     side_p = "SELL" if pos == 1 else "BUY"
-                    emit(COMM(e.timestamp, self.name, f"{side_p} {close_qty} #reason:take_profit1"))
+                    self._emit_order(
+                        e.timestamp,
+                        side_p,
+                        reason="take_profit1",
+                        quantity=float(self.take_profit_frac1),
+                        quantity_type="percent_position",
+                        reduce_only=True,
+                    )
                     self.tp1_fired = True
 
         # (3) giveback vs fixed full exit order
@@ -251,8 +297,23 @@ class CTA(Agent):
             }
 
             if not self.just_exited:
-                q = "ALL" if self.qty is None else self.qty
-                emit(COMM(e.timestamp, self.name, f"{side} {q} #reason:{reason}"))
+                if self.qty is None:
+                    self._emit_order(
+                        e.timestamp,
+                        side,
+                        reason=reason,
+                        quantity_type="all_position",
+                        reduce_only=True,
+                    )
+                else:
+                    self._emit_order(
+                        e.timestamp,
+                        side,
+                        reason=reason,
+                        quantity=float(self.qty),
+                        quantity_type="units",
+                        reduce_only=True,
+                    )
                 self.positions.append(0)
                 self.entry_price = self.stop_price = None
 
@@ -283,7 +344,6 @@ class CTA(Agent):
         if self.pending_reversal and pos == 0:
             entry_price = getattr(e, "O", e.C)
             reversal_side = self.pending_reversal
-            q = "ALL" if self.qty is None else self.qty
 
             # log
             side_label = "long" if reversal_side == "BUY" else "short"
@@ -299,7 +359,23 @@ class CTA(Agent):
             })
 
             # order
-            emit(COMM(e.timestamp, self.name, f"{reversal_side} {q} #reason:reverse_ema_flip #at_open"))
+            if self.qty is None:
+                self._emit_order(
+                    e.timestamp,
+                    reversal_side,
+                    reason="reverse_ema_flip",
+                    quantity_type="all_cash",
+                    order_type="next_open",
+                )
+            else:
+                self._emit_order(
+                    e.timestamp,
+                    reversal_side,
+                    reason="reverse_ema_flip",
+                    quantity=float(self.qty),
+                    quantity_type="units",
+                    order_type="next_open",
+                )
 
             # internal book-keeping
             self.positions.append(+1 if reversal_side == "BUY" else -1)
@@ -341,8 +417,21 @@ class CTA(Agent):
                 })
                 print(f"[CTA.cross] {side_txt} @ {price:.2f} prev_diff={self.prev_diff:.4f} diff={diff:.4f}")
 
-                q = "ALL" if self.qty is None else self.qty
-                emit(COMM(e.timestamp, self.name, f"{side_txt} {q} #reason:entry_cross"))
+                if self.qty is None:
+                    self._emit_order(
+                        e.timestamp,
+                        side_txt,
+                        reason="entry_cross",
+                        quantity_type="all_cash",
+                    )
+                else:
+                    self._emit_order(
+                        e.timestamp,
+                        side_txt,
+                        reason="entry_cross",
+                        quantity=float(self.qty),
+                        quantity_type="units",
+                    )
                 self.positions.append(+1 if long_entry else -1)
                 self.entry_price = price
 
